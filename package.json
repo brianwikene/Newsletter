@@ -1,0 +1,28 @@
+{
+  "name": "newsletter",
+  "version": "1.0.0",
+  "description": "Newsletter Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/brianwikene/Newsletter.git"
+  },
+  "keywords": [
+    "newsletter"
+  ],
+  "author": "Brian J Wikene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianwikene/Newsletter/issues"
+  },
+  "homepage": "https://github.com/brianwikene/Newsletter#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4",
+    "request": "^2.88.0"
+  }
+}
