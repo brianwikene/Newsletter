@@ -6,8 +6,8 @@ const request = require('request'); // Make simple https calls
 const app = express();
 const port = 3000;
 
-let apiKey = "edfc62bed2e9f6c03968ef1b206073e7-us4"; //Here your API key from Mailchimp
-let listID = "9fa1b2b739"; //Here your list id
+let apiKey = ""; //Here your API key from Mailchimp
+let listID = ""; //Here your list id
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extended: true}));
